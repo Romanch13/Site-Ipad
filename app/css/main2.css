@@ -620,9 +620,30 @@ dl.row > dd + dt {
   font-size: 90%;
   color: #818a91; }
 
-.jumbotron img {
-  position: relative;
-  right: 22px; }
+.img-ipad {
+  height: 350px;
+  width: auto;
+  float: none; }
+
+.img-znak-1 {
+  padding-top: 50px;
+  padding-left: 150px; }
+
+.img-znak-2 {
+  padding-top: 50px;
+  padding-left: 150px; }
+
+.img-znak-3 {
+  padding-top: 50px;
+  padding-left: 150px; }
+
+.img-znak-4 {
+  padding-top: 50px;
+  padding-left: 150px; }
+
+.img-znak-5 {
+  padding-top: 50px;
+  padding-left: 150px; }
 
 code,
 kbd,
@@ -1638,14 +1659,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .has-success .form-control-feedback,
 .has-success .form-control-label,
-.has-success .radio,
-.has-success .checkbox,
-.has-success .radio-inline,
-.has-success .checkbox-inline,
-.has-success.radio label,
-.has-success.checkbox label,
-.has-success.radio-inline label,
-.has-success.checkbox-inline label,
+.has-success .form-check-label,
+.has-success .form-check-inline,
 .has-success .custom-control {
   color: #5cb85c; }
 
@@ -1665,14 +1680,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .has-warning .form-control-feedback,
 .has-warning .form-control-label,
-.has-warning .radio,
-.has-warning .checkbox,
-.has-warning .radio-inline,
-.has-warning .checkbox-inline,
-.has-warning.radio label,
-.has-warning.checkbox label,
-.has-warning.radio-inline label,
-.has-warning.checkbox-inline label,
+.has-warning .form-check-label,
+.has-warning .form-check-inline,
 .has-warning .custom-control {
   color: #f0ad4e; }
 
@@ -1692,14 +1701,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .has-danger .form-control-feedback,
 .has-danger .form-control-label,
-.has-danger .radio,
-.has-danger .checkbox,
-.has-danger .radio-inline,
-.has-danger .checkbox-inline,
-.has-danger.radio label,
-.has-danger.checkbox label,
-.has-danger.radio-inline label,
-.has-danger.checkbox-inline label,
+.has-danger .form-check-label,
+.has-danger .form-check-inline,
 .has-danger .custom-control {
   color: #d9534f; }
 
@@ -3429,7 +3432,6 @@ input[type="button"].btn-block {
     -moz-column-gap: 1.25rem;
     column-gap: 1.25rem; }
     .card-columns .card {
-      display: inline-block;
       width: 100%; } }
 
 .breadcrumb {
@@ -3627,7 +3629,7 @@ a.tag:focus, a.tag:hover {
   background-color: #eeeeee; }
 
 .alert {
-  padding: 15px;
+  padding: 1rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   -webkit-border-radius: 0.25rem;
@@ -3640,11 +3642,11 @@ a.tag:focus, a.tag:hover {
   font-weight: bold; }
 
 .alert-dismissible {
-  padding-right: 35px; }
+  padding-right: 2rem; }
   .alert-dismissible .close {
     position: relative;
-    top: -2px;
-    right: -21px;
+    top: -.125rem;
+    right: -1rem;
     color: inherit; }
 
 .alert-success {
@@ -3849,11 +3851,6 @@ base::-moz-progress-bar,
   .progress-danger .progress-bar {
     background-color: #d9534f; } }
 
-.media {
-  margin-top: 15px; }
-  .media:first-child {
-    margin-top: 0; }
-
 .media,
 .media-body {
   overflow: hidden; }
@@ -3902,13 +3899,13 @@ base::-moz-progress-bar,
     left: 0px; }
   .social {
     position: relative;
-    right: 178px;
-    display: inline-block;
-    padding-top: 5px; }
+    bottom: 185px;
+    right: 50px;
+    display: inline-block; }
   .abz-1 {
-    margin-left: -100px; }
+    margin-left: -80px; }
   .paragraph-1 {
-    margin-left: -100px; }
+    margin-left: -80px; }
   .paragraph-2-normal {
     margin-left: -100px; }
   .paragraph-3-normal {
@@ -3916,15 +3913,13 @@ base::-moz-progress-bar,
   .abz-2 {
     margin-left: -100px; }
   .abz-3 {
-    margin-left: -48px; }
-  .jumbotron img {
-    position: relative;
-    left: 15px; } }
+    margin-left: -48px; } }
 
 @media only screen and (max-width: 480px) {
-  font-family: "HelveticaBold", sans-serif;
-  margin-left: 86px;
-  border: 3px solid; }
+  .btn_1 {
+    font-family: "HelveticaBold", sans-serif;
+    margin-left: 86px;
+    border: 3px solid; } }
 
 .list-group {
   padding-left: 0;
@@ -4608,9 +4603,6 @@ button.close {
     bottom: 20px; } }
 
 /** Bootstrap **/
-.bg-inverse {
-  background-color: #373a3c; }
-
 .bg-faded {
   background-color: #f7f7f9; }
 
@@ -4648,6 +4640,13 @@ a.bg-warning:focus, a.bg-warning:hover {
 
 a.bg-danger:focus, a.bg-danger:hover {
   background-color: #c9302c !important; }
+
+.bg-inverse {
+  color: #fff !important;
+  background-color: #373a3c !important; }
+
+a.bg-inverse:focus, a.bg-inverse:hover {
+  background-color: #1f2021 !important; }
 
 .clearfix::after {
   content: "";
@@ -4994,37 +4993,37 @@ a.bg-danger:focus, a.bg-danger:hover {
   color: #818a91 !important; }
 
 a.text-muted:focus, a.text-muted:hover {
-  color: #687077; }
+  color: #687077 !important; }
 
 .text-primary {
   color: #0275d8 !important; }
 
 a.text-primary:focus, a.text-primary:hover {
-  color: #025aa5; }
+  color: #025aa5 !important; }
 
 .text-success {
   color: #5cb85c !important; }
 
 a.text-success:focus, a.text-success:hover {
-  color: #449d44; }
+  color: #449d44 !important; }
 
 .text-info {
   color: #5bc0de !important; }
 
 a.text-info:focus, a.text-info:hover {
-  color: #31b0d5; }
+  color: #31b0d5 !important; }
 
 .text-warning {
   color: #f0ad4e !important; }
 
 a.text-warning:focus, a.text-warning:hover {
-  color: #ec971f; }
+  color: #ec971f !important; }
 
 .text-danger {
   color: #d9534f !important; }
 
 a.text-danger:focus, a.text-danger:hover {
-  color: #c9302c; }
+  color: #c9302c !important; }
 
 .text-hide {
   font: 0/0 a;
@@ -5138,6 +5137,109 @@ a.text-danger:focus, a.text-danger:hover {
   color: #767676;
   font-size: 15px;
   padding-left: 86px; }
+
+.paragraph-znak-1 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #767676;
+  text-align: center;
+  position: relative;
+  left: 80px;
+  width: 230px;
+  padding-top: 5px; }
+
+.paragraph-znak-2 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #767676;
+  text-align: center;
+  position: relative;
+  left: 110px;
+  width: 180px;
+  padding-top: 5px; }
+
+.paragraph-znak-3 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #767676;
+  text-align: center;
+  position: relative;
+  left: 110px;
+  width: 190px;
+  padding-top: 5px; }
+
+.paragraph-znak-4 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #767676;
+  text-align: center;
+  position: relative;
+  left: 110px;
+  width: 190px;
+  padding-top: 5px; }
+
+.paragraph-znak-5 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #767676;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  width: 200px;
+  padding-top: 5px; }
+
+.abz-znak-1 {
+  font-family: "HelveticaBold", sans-serif;
+  font-size: 18px;
+  color: #767676;
+  text-align: center;
+  width: 325px;
+  position: relative;
+  padding-top: 20px;
+  left: 25px; }
+
+.abz-znak-2 {
+  font-family: "HelveticaBold", sans-serif;
+  font-size: 18px;
+  color: #767676;
+  text-align: center;
+  width: 325px;
+  position: relative;
+  padding-top: 20px;
+  left: 35px; }
+
+.abz-znak-3 {
+  font-family: "HelveticaBold", sans-serif;
+  font-size: 18px;
+  color: #767676;
+  text-align: center;
+  width: 325px;
+  position: relative;
+  padding-top: 20px;
+  left: 35px; }
+
+.abz-znak-4 {
+  font-family: "HelveticaBold", sans-serif;
+  font-size: 18px;
+  color: #767676;
+  text-align: center;
+  width: 325px;
+  position: relative;
+  padding-top: 20px;
+  left: 35px; }
+
+.abz-znak-5 {
+  font-family: "HelveticaBold", sans-serif;
+  font-size: 18px;
+  color: #767676;
+  text-align: center;
+  width: 325px;
+  position: relative;
+  padding-top: 20px;
+  left: 35px; }
+
+number {
+  color: #a59477; }
 
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
