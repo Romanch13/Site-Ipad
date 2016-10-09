@@ -622,37 +622,61 @@ dl.row > dd + dt {
 
 .img-ipad {
   height: 350px;
-  width: auto;
-  float: none; }
+  width: auto; }
 
 .img-znak-1 {
   padding-top: 50px;
-  padding-left: 150px; }
+  padding-left: 200px; }
 
 .img-znak-2 {
   padding-top: 50px;
-  padding-left: 150px; }
+  padding-left: 75px; }
 
 .img-znak-3 {
   padding-top: 50px;
-  padding-left: 150px; }
+  padding-left: 54px; }
 
 .img-znak-4 {
   padding-top: 50px;
-  padding-left: 150px; }
+  padding-left: 35px; }
 
 .img-znak-5 {
   padding-top: 50px;
-  padding-left: 150px; }
+  padding-left: 14px; }
 
 .img-fluid, .carousel-inner > .carousel-item > img,
 .carousel-inner > .carousel-item > a > img {
   height: auto;
   width: 100%; }
 
-.img-icon-1 {
+.card-1 {
   position: relative;
-  left: 68px; }
+  left: 145px;
+  width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+
+.card-2 {
+  position: relative;
+  left: 70px;
+  width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+
+.card-3 {
+  position: relative;
+  right: 6px;
+  width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+
+.card-4 {
+  position: relative;
+  right: 80px;
+  width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
+
+.img-23jun {
+  padding-left: 148px;
+  position: relative;
+  bottom: 20px; }
 
 code,
 kbd,
@@ -2235,7 +2259,7 @@ input[type="button"].btn-block {
 
 .btn_1 {
   font-family: "HelveticaBold", sans-serif;
-  margin-left: 86px;
+  margin-left: 132px;
   border: 3px solid;
   font-size: 15px;
   padding-left: 25px;
@@ -2250,7 +2274,6 @@ input[type="button"].btn-block {
   background-color: transparent; }
 
 .btn_1:hover {
-  font-family: "HelveticaBold", sans-serif;
   color: white;
   border-color: #a59477;
   font-weight: bold;
@@ -2260,6 +2283,7 @@ input[type="button"].btn-block {
 
 .btn_2 {
   font-family: "HelveticaBold", sans-serif;
+  margin-left: 2px;
   border: 3px solid;
   font-size: 15px;
   padding-left: 25px;
@@ -2274,7 +2298,6 @@ input[type="button"].btn-block {
   background-color: transparent; }
 
 .btn_2:hover {
-  font-family: "HelveticaBold", sans-serif;
   color: white;
   border-color: #a59477;
   font-weight: bold;
@@ -3188,13 +3211,13 @@ input[type="button"].btn-block {
 
 .navbar-nav li {
   position: relative;
-  left: 160px;
+  left: 180px;
   font-family: "HelveticaMedium", sans-serif;
   word-spacing: 20px;
   font-size: 13px;
   font-weight: bold;
   margin-top: 5px;
-  padding-right: 10px;
+  padding-right: 15px;
   text-transform: uppercase; }
 
 .navbar-light .navbar-nav .active > .nav-link {
@@ -3202,12 +3225,13 @@ input[type="button"].btn-block {
 
 .social li {
   position: relative;
-  left: 178px;
+  left: 180px;
   display: inline-block;
   padding-top: 5px; }
 
 .navbar-brand {
-  padding-left: 69px; }
+  padding-left: 132px;
+  display: inline-block; }
 
 .card {
   position: relative;
@@ -3922,9 +3946,7 @@ base::-moz-progress-bar,
   padding-left: 0;
   list-style: none; }
 
-@media only screen and (max-width: 991px) {
-  .navbar-brand {
-    display: none; }
+@media only screen and (max-width: 992px) {
   .navbar-nav li {
     margin-left: 0;
     margin-bottom: 0;
@@ -3949,6 +3971,8 @@ base::-moz-progress-bar,
     margin-left: -48px; } }
 
 @media only screen and (max-width: 480px) {
+  .navbar-brand {
+    display: none; }
   .btn_1 {
     font-family: "HelveticaBold", sans-serif;
     margin-left: 86px;
@@ -5128,49 +5152,49 @@ a.text-danger:focus, a.text-danger:hover {
   font-family: "HelveticaBold", sans-serif;
   font-size: 39px;
   color: #a59477;
-  padding-left: 85px;
+  padding-left: 130px;
   line-height: 2.5rem; }
 
 .abz-3 {
   font-family: "HelveticaBold", sans-serif;
   color: #767676;
   font-size: 25px;
-  font-weight: bold;
-  padding-left: 86px; }
+  padding-left: 148px; }
 
 .abz-2 {
   font-family: "HelveticaBold", sans-serif;
   color: #767676;
   font-size: 25px;
-  font-weight: bold;
   padding: 10px;
-  padding-left: 85px; }
+  padding-left: 130px; }
 
 .abz-4 {
   font-family: "HelveticaBold", sans-serif;
   color: #767676;
   font-size: 25px;
-  font-weight: bold;
   padding: 15px;
-  padding-left: 86px; }
+  padding-left: 148px; }
 
-.abz-5 {
+.abz-h4-1 {
   font-family: "HelveticaBold", sans-serif;
   color: #767676;
-  font-weight: bold;
-  text-align: center; }
+  padding: 30px;
+  padding-left: 146px; }
 
-.paragraph_card-1 {
-  font-family: "HelveticaLight", Helvetica, sans-serif;
-  color: #a59478;
-  text-align: center; }
+.abz-h4_1 {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-size: 16px;
+  padding-left: 225px;
+  position: relative;
+  bottom: 80px; }
 
 .paragraph-1 {
   font-family: "HelveticaLight", Helvetica, sans-serif;
   font-size: 16px;
   color: #c7c7c7;
   padding: 50px;
-  padding-left: 88px;
+  padding-left: 132px;
   line-height: 2rem; }
 
 .paragraph-2-normal {
@@ -5178,7 +5202,7 @@ a.text-danger:focus, a.text-danger:hover {
   line-height: 25px;
   color: #767676;
   font-size: 15px;
-  padding-left: 85px; }
+  padding-left: 130px; }
 
 .paragraph-3-normal {
   font-family: "HelveticaLight", Helvetica, sans-serif;
@@ -5186,64 +5210,113 @@ a.text-danger:focus, a.text-danger:hover {
   color: #767676;
   font-size: 15px;
   padding: 10px;
-  padding-left: 86px; }
+  padding-left: 148px; }
 
 .paragraph-4-normal {
   font-family: "HelveticaLight", Helvetica, sans-serif;
   line-height: 25px;
   color: #767676;
   font-size: 15px;
+  font-family: 100px;
   padding: 25px;
-  padding-left: 120px; }
+  padding-left: 148px; }
+
+.paragraph_card-1 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  color: #a59478;
+  text-align: center; }
+
+.paragraph_card-2 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  color: #a59478;
+  text-align: center; }
+
+.paragraph_card-3 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  color: #a59478;
+  text-align: center; }
+
+.paragraph_card-4 {
+  font-family: "HelveticaLight", Helvetica, sans-serif;
+  color: #a59478;
+  text-align: center; }
+
+.abz-card-1 {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px; }
+
+.abz-card-2 {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px; }
+
+.abz-card-3 {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px; }
+
+.abz-card-4 {
+  font-family: "HelveticaBold", sans-serif;
+  color: #767676;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px; }
 
 .paragraph-znak-1 {
   font-family: "HelveticaLight", Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #767676;
   text-align: center;
   position: relative;
-  left: 80px;
-  width: 230px;
+  left: 150px;
+  width: 180px;
   padding-top: 5px; }
 
 .paragraph-znak-2 {
   font-family: "HelveticaLight", Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #767676;
   text-align: center;
   position: relative;
-  left: 110px;
-  width: 180px;
+  left: 20px;
+  width: 190px;
   padding-top: 5px; }
 
 .paragraph-znak-3 {
   font-family: "HelveticaLight", Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #767676;
   text-align: center;
   position: relative;
-  left: 110px;
-  width: 190px;
+  left: 00px;
+  width: 180px;
   padding-top: 5px; }
 
 .paragraph-znak-4 {
   font-family: "HelveticaLight", Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #767676;
   text-align: center;
   position: relative;
-  left: 110px;
-  width: 190px;
+  right: 10px;
+  width: 180px;
   padding-top: 5px; }
 
 .paragraph-znak-5 {
   font-family: "HelveticaLight", Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #767676;
   text-align: center;
   position: relative;
-  left: 100px;
-  width: 200px;
+  right: 35px;
+  width: 180px;
   padding-top: 5px; }
 
 .abz-znak-1 {
@@ -5254,7 +5327,7 @@ a.text-danger:focus, a.text-danger:hover {
   width: 325px;
   position: relative;
   padding-top: 20px;
-  left: 25px; }
+  left: 70px; }
 
 .abz-znak-2 {
   font-family: "HelveticaBold", sans-serif;
@@ -5264,7 +5337,7 @@ a.text-danger:focus, a.text-danger:hover {
   width: 325px;
   position: relative;
   padding-top: 20px;
-  left: 35px; }
+  right: 50px; }
 
 .abz-znak-3 {
   font-family: "HelveticaBold", sans-serif;
@@ -5274,7 +5347,7 @@ a.text-danger:focus, a.text-danger:hover {
   width: 325px;
   position: relative;
   padding-top: 20px;
-  left: 35px; }
+  right: 75px; }
 
 .abz-znak-4 {
   font-family: "HelveticaBold", sans-serif;
@@ -5284,7 +5357,7 @@ a.text-danger:focus, a.text-danger:hover {
   width: 325px;
   position: relative;
   padding-top: 20px;
-  left: 35px; }
+  right: 90px; }
 
 .abz-znak-5 {
   font-family: "HelveticaBold", sans-serif;
@@ -5294,7 +5367,7 @@ a.text-danger:focus, a.text-danger:hover {
   width: 325px;
   position: relative;
   padding-top: 20px;
-  left: 35px; }
+  right: 110px; }
 
 number {
   color: #a59477; }
